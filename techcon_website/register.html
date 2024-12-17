@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>TechCon 2024 Conference Website</title>
+    <style>
+        /* Add the CSS styling here */
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #000066;
+        }
+
+        nav li {
+            float: left;
+        }
+
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav li a:hover {
+            background-color: #111;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+<h1>Register for TechCon 2024</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+</header> <br>
+<main>
+   <form action="/submit-form" method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required minlength="4" maxlength="8" placeholder="Username"> <br><br>
+     <label for="email">   Email:</label>
+    <input type="email" id="email" name="email" required placeholder="example@domain.com"><br><br>
+<label for="password">Password:</label>
+    <input type="password" id="password" name="Password" required minlength="4" maxlength="8" placeholder="password"> <br><br>
+
+<label for "Terms and Conditions"> Terms and Conditions:</label>
+<input type=“checkbox” id="checkbox">
+    <button type="submit">Register Now</button>
+</form>
+</main>
+<footer>
+<p>&copy; 2024 TechCon. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
