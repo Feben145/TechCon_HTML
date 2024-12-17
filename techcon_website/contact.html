@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>TechCon 2024 Conference Website</title>
+    <style>
+        /* Add the CSS styling here */
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #000066;
+        }
+
+        nav li {
+            float: left;
+        }
+
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav li a:hover {
+            background-color: #111;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+<h1>Contact Us</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+</header> <br>
+<main>
+<h2>Email Address:</h2>
+            <p>
+              <a href="mailto:conference@example.com">conference@example.com</a>
+            </p>
+<h2>Social Media Links:</h2>
+            <div class="social-links">
+                <a href="https://www.facebook.com/conference" target="_blank">Facebook</a><br>
+                <a href="https://twitter.com/conference" target="_blank">Twitter</a><br>
+                <a href="https://www.linkedin.com/in/conference" target="_blank">LinkedIn</a>
+            </div>
+ <h2>Embedded Google Maps:</h2>
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509474!2d144.9631579153182!3d-37.8162791797517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577804d0f8784f8!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1625683623452!5m2!1sen!2sus"
+                allowfullscreen
+                loading="lazy">
+            </iframe>
+ <h2>Contact Us Form:</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <!-- Submit Button -->
+                <button type="submit">Send Message</button>
+            </form>
+ </main>
+<footer>
+<p>&copy; 2024 TechCon. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
